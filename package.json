@@ -1,0 +1,29 @@
+{
+  "name": "a02-fang20dan",
+  "version": "1.0.0",
+  "description": "Assignment 2 for COMP426",
+  "main": "index.js",
+  "scripts": {
+    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a02-fang20dan.git"
+  },
+  "author": "@fang20dan",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a02-fang20dan/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a02-fang20dan#readme",
+  "bin": {
+    "galosh.js": "./cli.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "minimalist": "^1.0.0",
+    "minimist": "^1.2.6",
+    "moment-timezone": "^0.5.37",
+    "node-fetch": "^3.2.10"
+  }
+}
